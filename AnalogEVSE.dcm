@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LED
+K LED
+$ENDCMP
+#
+$CMP LED-RGB-CA
+K LED
+$ENDCMP
+#
+#End Doc Library

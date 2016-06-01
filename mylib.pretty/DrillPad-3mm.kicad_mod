@@ -1,0 +1,9 @@
+(module DrillPad-3mm (layer F.Cu) (tedit 57271C93)
+  (fp_text reference "" (at 0.381 2.413) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value WireBridgePad (at 0.127 -2.413) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad "" thru_hole circle (at 0 0) (size 3 3) (drill 3) (layers *.Cu *.Mask F.SilkS))
+)
