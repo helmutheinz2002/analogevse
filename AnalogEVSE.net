@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source /home/bwalter/data/ablage/projekte/Ladebox/AnalogEVSE/AnalogEVSE.sch)
-    (date "Sun 22 May 2016 09:49:54 PM CEST")
+    (source /home/bwalter/AnalogEVSE.copy/AnalogEVSE.sch)
+    (date "Wed 01 Jun 2016 09:17:34 PM CEST")
     (tool "Eeschema (2015-12-17 BZR 6381)-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -633,14 +633,14 @@
         (pin (num 3) (name SA) (type passive))
         (pin (num 4) (name SB) (type passive)))))
   (libraries
-    (library (logical device)
-      (uri /usr/share/kicad/library/device.lib))
     (library (logical linear)
       (uri /usr/share/kicad/library/linear.lib))
+    (library (logical regul)
+      (uri /usr/share/kicad/library/regul.lib))
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib))
-    (library (logical regul)
-      (uri /usr/share/kicad/library/regul.lib)))
+    (library (logical device)
+      (uri /usr/share/kicad/library/device.lib)))
   (nets
     (net (code 1) (name "Net-(C6-Pad1)")
       (node (ref D3) (pin 1))
