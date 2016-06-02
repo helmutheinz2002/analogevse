@@ -37,8 +37,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "AnalogEVSE"
-Date "2016-04-24"
-Rev "1.7"
+Date "2016-06-01"
+Rev "1.8"
 Comp ""
 Comment1 "Analog J1772 charge controller"
 Comment2 ""
