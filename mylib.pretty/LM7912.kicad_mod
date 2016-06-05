@@ -1,8 +1,8 @@
-(module 7812 placed (layer F.Cu) (tedit 5721B82D)
+(module LM7912 placed (layer F.Cu) (tedit 57534DC8)
   (fp_text reference U2 (at 0 2.54) (layer F.SilkS)
     (effects (font (size 1.016 1.016) (thickness 0.2032)))
   )
-  (fp_text value LM7812 (at 0 -3.175) (layer F.SilkS) hide
+  (fp_text value LM7912 (at 0 -3.175) (layer F.SilkS) hide
     (effects (font (size 1.016 1.016) (thickness 0.2032)))
   )
   (fp_line (start -3.81 -1.27) (end 3.81 -1.27) (layer F.SilkS) (width 0.3048))
@@ -10,7 +10,7 @@
   (fp_line (start -3.81 1.27) (end 3.81 1.27) (layer F.SilkS) (width 0.3048))
   (fp_line (start 3.81 1.27) (end 3.81 -1.905) (layer F.SilkS) (width 0.3048))
   (fp_line (start 3.81 -1.905) (end -3.81 -1.905) (layer F.SilkS) (width 0.3048))
-  (pad VI thru_hole circle (at -2.54 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask F.SilkS))
-  (pad GND thru_hole circle (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask F.SilkS))
-  (pad VO thru_hole circle (at 2.54 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask F.SilkS))
+  (pad VI thru_hole circle (at 0 0) (size 2 2) (drill 1) (layers *.Cu *.Mask F.SilkS))
+  (pad GND thru_hole circle (at -2.54 0) (size 2 2) (drill 1) (layers *.Cu *.Mask F.SilkS))
+  (pad VO thru_hole circle (at 2.54 0) (size 2 2) (drill 1) (layers *.Cu *.Mask F.SilkS))
 )
