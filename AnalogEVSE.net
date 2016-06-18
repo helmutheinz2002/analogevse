@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/bwalter/data/ablage/projekte/Ladebox/analogevse/AnalogEVSE.sch)
-    (date "Sun 12 Jun 2016 10:12:32 AM CEST")
+    (date "Sat 18 Jun 2016 10:48:32 PM CEST")
     (tool "Eeschema no-vcs-found-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -443,7 +443,7 @@
       (tstamp 5755526C))
     (comp (ref RV2)
       (value 10k)
-      (footprint mylib:Trimpot)
+      (footprint mylib:Trimpot2)
       (libsource (lib device) (part POT))
       (sheetpath (names /) (tstamps /))
       (tstamp 575D1E58)))
@@ -640,10 +640,10 @@
         (pin (num 3) (name SA) (type passive))
         (pin (num 4) (name SB) (type passive)))))
   (libraries
-    (library (logical AnalogEVSE-rescue)
-      (uri /home/bwalter/data/ablage/projekte/Ladebox/analogevse/AnalogEVSE-rescue.lib))
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
+    (library (logical AnalogEVSE-rescue)
+      (uri /home/bwalter/data/ablage/projekte/Ladebox/analogevse/AnalogEVSE-rescue.lib))
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib))
     (library (logical regul)
