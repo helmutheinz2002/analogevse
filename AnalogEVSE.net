@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/bwalter/data/ablage/projekte/Ladebox/analogevse/AnalogEVSE.sch)
-    (date "Sat 18 Jun 2016 10:48:32 PM CEST")
+    (date "Sat 18 Jun 2016 10:54:08 PM CEST")
     (tool "Eeschema no-vcs-found-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -430,7 +430,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 57538024))
     (comp (ref C10)
-      (value 47n)
+      (value 150n)
       (footprint mylib:C2)
       (libsource (lib AnalogEVSE-rescue) (part C-RESCUE-AnalogEVSE))
       (sheetpath (names /) (tstamps /))
