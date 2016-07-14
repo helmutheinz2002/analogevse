@@ -37,8 +37,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "AnalogEVSE"
-Date "2016-04-24"
-Rev "1.7"
+Date "2016-07-06"
+Rev "1.8"
 Comp ""
 Comment1 "Analog J1772 charge controller"
 Comment2 ""
@@ -1714,7 +1714,7 @@ L C-RESCUE-AnalogEVSE C10
 U 1 1 5753CE59
 P 5350 1200
 F 0 "C10" H 5350 1300 40  0000 L CNN
-F 1 "47n" H 5356 1115 40  0000 L CNN
+F 1 "150n" H 5356 1115 40  0000 L CNN
 F 2 "mylib:C2" H 5388 1050 30  0001 C CNN
 F 3 "~" H 5350 1200 60  0000 C CNN
 	1    5350 1200
@@ -1749,7 +1749,7 @@ U 1 1 575D1E58
 P 1500 5000
 F 0 "RV2" H 1500 4900 50  0000 C CNN
 F 1 "10k" H 1500 5000 50  0000 C CNN
-F 2 "mylib:Trimpot2" H 1500 5000 60  0001 C CNN
+F 2 "mylib:Trimpot3" H 1500 5000 60  0001 C CNN
 F 3 "~" H 1500 5000 60  0000 C CNN
 	1    1500 5000
 	0    1    1    0   
